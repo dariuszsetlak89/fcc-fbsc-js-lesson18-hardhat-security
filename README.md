@@ -1,6 +1,19 @@
 # freeCodeCamp: Full Blockchain Solidity Course JavaScript - Lesson 18: Hardhat Security
 
+Two most common attacks:
+- Reentrancy
+- Oracle Manipulation
+
+ALWAYS before you deploy ANYTHING to mainnet, ALWAYS:
+- Run Slither
+- Look MANUALLY for oracle manipulation examples or reentrancy attack
+
+---
+
+# Contents
+
 - [freeCodeCamp: Full Blockchain Solidity Course JavaScript - Lesson 18: Hardhat Security](#freecodecamp-full-blockchain-solidity-course-javascript---lesson-18-hardhat-security)
+- [Contents](#contents)
 - [What is an Audit?](#what-is-an-audit)
 - [Help your auditors!](#help-your-auditors)
 - [Process](#process)
